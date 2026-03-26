@@ -1,0 +1,14 @@
+[Unit]
+Description=x570 Thermal Daemon
+After=multi-user.target
+
+[Service]
+Type=simple
+WorkingDirectory=/home/ye/Workspace/x570-thermal-daemon
+ExecStart=/usr/bin/python3 /home/ye/Workspace/x570-thermal-daemon/x570_thermal_daemon.py
+Restart=always
+RestartSec=2
+User=root
+
+[Install]
+WantedBy=multi-user.target
