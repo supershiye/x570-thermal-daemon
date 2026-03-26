@@ -1,0 +1,374 @@
+{
+  "__VERSION__": "264",
+  "FanControl": {
+    "Controls": [
+      {
+        "NickName": "Pump Fan",
+        "Identifier": "/lpc/nct6797d/control/0",
+        "IsHidden": true,
+        "Enable": false,
+        "SelectedFanCurve": null,
+        "SelectedOffset": 0,
+        "PairedFanSensor": null,
+        "SelectedStart": 0,
+        "SelectedStop": 0,
+        "MinimumPercent": 0,
+        "SelectedCommandStepUp": 8,
+        "SelectedCommandStepDown": 8,
+        "ManualControlValue": 50,
+        "ManualControl": false,
+        "ForceApply": false,
+        "Calibration": null
+      },
+      {
+        "NickName": "Back Fan",
+        "Identifier": "/lpc/nct6797d/control/1",
+        "IsHidden": false,
+        "Enable": true,
+        "SelectedFanCurve": {
+          "Name": "Auto Case"
+        },
+        "SelectedOffset": 0,
+        "PairedFanSensor": {
+          "Identifier": "/lpc/nct6797d/fan/1"
+        },
+        "SelectedStart": 0,
+        "SelectedStop": 0,
+        "MinimumPercent": 0,
+        "SelectedCommandStepUp": 8,
+        "SelectedCommandStepDown": 8,
+        "ManualControlValue": 50,
+        "ManualControl": false,
+        "ForceApply": false,
+        "Calibration": null
+      },
+      {
+        "NickName": "Bottom Fan",
+        "Identifier": "/lpc/nct6797d/control/2",
+        "IsHidden": false,
+        "Enable": true,
+        "SelectedFanCurve": {
+          "Name": "Auto Water Cooling"
+        },
+        "SelectedOffset": 0,
+        "PairedFanSensor": {
+          "Identifier": "/lpc/nct6797d/fan/2"
+        },
+        "SelectedStart": 0,
+        "SelectedStop": 0,
+        "MinimumPercent": 0,
+        "SelectedCommandStepUp": 8,
+        "SelectedCommandStepDown": 8,
+        "ManualControlValue": 50,
+        "ManualControl": false,
+        "ForceApply": false,
+        "Calibration": null
+      },
+      {
+        "NickName": "Side Fan",
+        "Identifier": "/lpc/nct6797d/control/3",
+        "IsHidden": false,
+        "Enable": true,
+        "SelectedFanCurve": {
+          "Name": "Auto Water Cooling"
+        },
+        "SelectedOffset": 0,
+        "PairedFanSensor": {
+          "Identifier": "/lpc/nct6797d/fan/3"
+        },
+        "SelectedStart": 0,
+        "SelectedStop": 0,
+        "MinimumPercent": 0,
+        "SelectedCommandStepUp": 8,
+        "SelectedCommandStepDown": 8,
+        "ManualControlValue": 50,
+        "ManualControl": false,
+        "ForceApply": false,
+        "Calibration": null
+      },
+      {
+        "NickName": "Water Pump",
+        "Identifier": "/lpc/nct6797d/control/4",
+        "IsHidden": false,
+        "Enable": false,
+        "SelectedFanCurve": null,
+        "SelectedOffset": 0,
+        "PairedFanSensor": {
+          "Identifier": "/lpc/nct6797d/fan/4"
+        },
+        "SelectedStart": 0,
+        "SelectedStop": 0,
+        "MinimumPercent": 0,
+        "SelectedCommandStepUp": 8,
+        "SelectedCommandStepDown": 8,
+        "ManualControlValue": 50,
+        "ManualControl": false,
+        "ForceApply": false,
+        "Calibration": null
+      },
+      {
+        "NickName": "Top Fan",
+        "Identifier": "/lpc/nct6797d/control/5",
+        "IsHidden": false,
+        "Enable": true,
+        "SelectedFanCurve": {
+          "Name": "Auto Case"
+        },
+        "SelectedOffset": 0,
+        "PairedFanSensor": {
+          "Identifier": "/lpc/nct6797d/fan/5"
+        },
+        "SelectedStart": 0,
+        "SelectedStop": 0,
+        "MinimumPercent": 0,
+        "SelectedCommandStepUp": 8,
+        "SelectedCommandStepDown": 8,
+        "ManualControlValue": 50,
+        "ManualControl": false,
+        "ForceApply": false,
+        "Calibration": null
+      },
+      {
+        "NickName": "Chipset Fan",
+        "Identifier": "/lpc/nct6797d/control/6",
+        "IsHidden": false,
+        "Enable": true,
+        "SelectedFanCurve": {
+          "Name": "Auto Chipset"
+        },
+        "SelectedOffset": 0,
+        "PairedFanSensor": {
+          "Identifier": "/lpc/nct6797d/fan/6"
+        },
+        "SelectedStart": 0,
+        "SelectedStop": 0,
+        "MinimumPercent": 0,
+        "SelectedCommandStepUp": 8,
+        "SelectedCommandStepDown": 8,
+        "ManualControlValue": 50,
+        "ManualControl": false,
+        "ForceApply": false,
+        "Calibration": null
+      },
+      {
+        "NickName": "Control 1 - NVIDIA GeForce RTX 3090",
+        "Identifier": "NVApiWrapper/0-GA102-A/control/0",
+        "IsHidden": true,
+        "Enable": false,
+        "SelectedFanCurve": null,
+        "SelectedOffset": 0,
+        "PairedFanSensor": null,
+        "SelectedStart": 0,
+        "SelectedStop": 0,
+        "MinimumPercent": 0,
+        "SelectedCommandStepUp": 8,
+        "SelectedCommandStepDown": 8,
+        "ManualControlValue": 50,
+        "ManualControl": false,
+        "ForceApply": false,
+        "Calibration": null
+      },
+      {
+        "NickName": "Control 2 - NVIDIA GeForce RTX 3090",
+        "Identifier": "NVApiWrapper/0-GA102-A/control/1",
+        "IsHidden": true,
+        "Enable": false,
+        "SelectedFanCurve": null,
+        "SelectedOffset": 0,
+        "PairedFanSensor": null,
+        "SelectedStart": 0,
+        "SelectedStop": 0,
+        "MinimumPercent": 0,
+        "SelectedCommandStepUp": 8,
+        "SelectedCommandStepDown": 8,
+        "ManualControlValue": 50,
+        "ManualControl": false,
+        "ForceApply": false,
+        "Calibration": null
+      }
+    ],
+    "CustomSensors": [
+      {
+        "SelectedTempSource": {
+          "Identifier": "Mix/Max (CPU, GPU)"
+        },
+        "NickName": "Time Average",
+        "Identifier": "Time/Time Average",
+        "IsHidden": false,
+        "SelectedTime": 180
+      },
+      {
+        "NickName": "Max (CPU, GPU)",
+        "Identifier": "Mix/Max (CPU, GPU)",
+        "IsHidden": false,
+        "AllowMissingSensor": false,
+        "SelectedMixFunction": 1,
+        "SelectedSensors": [
+          {
+            "Identifier": "/amdcpu/0/temperature/2"
+          },
+          {
+            "Identifier": "/amdcpu/0/temperature/3"
+          },
+          {
+            "Identifier": "/amdcpu/0/temperature/4"
+          },
+          {
+            "Identifier": "NVApiWrapper/0-GA102-A/sensor/0"
+          }
+        ]
+      },
+      {
+        "NickName": "Max(SSDs)",
+        "Identifier": "Mix/Max(SSDs)",
+        "IsHidden": false,
+        "AllowMissingSensor": false,
+        "SelectedMixFunction": 1,
+        "SelectedSensors": [
+          {
+            "Identifier": "/nvme/3/temperature/0"
+          },
+          {
+            "Identifier": "/nvme/2/temperature/0"
+          },
+          {
+            "Identifier": "/nvme/4/temperature/0"
+          }
+        ]
+      }
+    ],
+    "FanCurves": [
+      {
+        "Name": "Auto Water Cooling",
+        "IsHidden": false,
+        "CommandMode": 0,
+        "SelectedTempSource": {
+          "Identifier": "Time Average"
+        },
+        "Step": 2,
+        "Deadband": 3,
+        "SelectedResponseTime": 2,
+        "IdleTemperature": 50,
+        "MinFanSpeed": 30,
+        "MaxFanSpeed": 100,
+        "LoadTemperature": 70
+      },
+      {
+        "Name": "Auto Chipset",
+        "IsHidden": false,
+        "CommandMode": 0,
+        "SelectedTempSource": {
+          "Identifier": "/lpc/nct6797d/temperature/5"
+        },
+        "Step": 2,
+        "Deadband": 3,
+        "SelectedResponseTime": 2,
+        "IdleTemperature": 60,
+        "MinFanSpeed": 0,
+        "MaxFanSpeed": 100,
+        "LoadTemperature": 85
+      },
+      {
+        "Name": "Auto Case",
+        "IsHidden": false,
+        "CommandMode": 0,
+        "SelectedTempSource": {
+          "Identifier": "Mix/Max(SSDs)"
+        },
+        "Step": 2,
+        "Deadband": 3,
+        "SelectedResponseTime": 2,
+        "IdleTemperature": 50,
+        "MinFanSpeed": 30,
+        "MaxFanSpeed": 80,
+        "LoadTemperature": 70
+      }
+    ],
+    "FanSensors": [
+      {
+        "Identifier": "/lpc/nct6797d/fan/0",
+        "IsHidden": false,
+        "NickName": "Pump Fan"
+      },
+      {
+        "Identifier": "/lpc/nct6797d/fan/1",
+        "IsHidden": false,
+        "NickName": "Back Fan"
+      },
+      {
+        "Identifier": "/lpc/nct6797d/fan/2",
+        "IsHidden": false,
+        "NickName": "Bottom Fan"
+      },
+      {
+        "Identifier": "/lpc/nct6797d/fan/3",
+        "IsHidden": false,
+        "NickName": "Side Fan"
+      },
+      {
+        "Identifier": "/lpc/nct6797d/fan/4",
+        "IsHidden": false,
+        "NickName": "Water Pump"
+      },
+      {
+        "Identifier": "/lpc/nct6797d/fan/5",
+        "IsHidden": false,
+        "NickName": "Top Fan"
+      },
+      {
+        "Identifier": "/lpc/nct6797d/fan/6",
+        "IsHidden": false,
+        "NickName": "Chipset Fan"
+      },
+      {
+        "Identifier": "NVApiWrapper/0-GA102-A/fan/0",
+        "IsHidden": false,
+        "NickName": "Fan 1 - NVIDIA GeForce RTX 3090"
+      },
+      {
+        "Identifier": "NVApiWrapper/0-GA102-A/fan/1",
+        "IsHidden": false,
+        "NickName": "Fan 2 - NVIDIA GeForce RTX 3090"
+      }
+    ],
+    "TemperatureSensors": []
+  },
+  "Sensors": {
+    "AdlxWrapperSettings": {
+      "Enabled": true
+    },
+    "DisabledPlugins": [],
+    "DisableStorageSensors": false,
+    "LibreHardwareMonitorSettings": {
+      "Controller": false,
+      "CPU": true,
+      "EmbeddedEC": true,
+      "GPU": true,
+      "Memory": true,
+      "Motherboard": true,
+      "PowerMonitor": true,
+      "PSU": false,
+      "Storage": true,
+      "StorageUpdateInterval": "00:01:00",
+      "ZeroRPMOverride": true
+    },
+    "NvAPIWrapperSettings": {
+      "Enabled": true,
+      "ZeroRPMOverride": true
+    }
+  },
+  "MainWindow": {
+    "Fahrenheit": false,
+    "HideCalibration": false,
+    "HideFanSpeedCards": true,
+    "HorizontalUIOrientation": false,
+    "PrimaryColor": "#FF607D8B",
+    "SecondaryColor": "#FFAEEA00",
+    "SelectedTheme": "",
+    "ShowHiddenCards": false,
+    "SyncThemeWithWindows": true,
+    "SyncTrayIconColorWithWindows": true,
+    "TrayIconColor": null,
+    "TrayIcons": []
+  }
+}
