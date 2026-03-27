@@ -112,7 +112,7 @@
         "IsHidden": false,
         "Enable": true,
         "SelectedFanCurve": {
-          "Name": "Auto Case"
+          "Name": "Auto Water Cooling"
         },
         "SelectedOffset": 0,
         "PairedFanSensor": {
@@ -235,6 +235,21 @@
             "Identifier": "/nvme/4/temperature/0"
           }
         ]
+      },
+      {
+        "NickName": "Early Stop",
+        "Identifier": "Mix/Early Stop",
+        "IsHidden": false,
+        "AllowMissingSensor": false,
+        "SelectedMixFunction": 2,
+        "SelectedSensors": [
+          {
+            "Identifier": "Time/Time Average"
+          },
+          {
+            "Identifier": "Mix/Max (CPU, GPU)"
+          }
+        ]
       }
     ],
     "FanCurves": [
@@ -243,7 +258,7 @@
         "IsHidden": false,
         "CommandMode": 0,
         "SelectedTempSource": {
-          "Identifier": "Time Average"
+          "Identifier": "Mix/Early Stop"
         },
         "Step": 2,
         "Deadband": 3,

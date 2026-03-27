@@ -1,15 +1,19 @@
 {
   "temperature_sensors": {
-    "CPU_TEMP_PATH": "/sys/class/hwmon/hwmon3/temp1_input",
+    "CPU_TEMP_PATHS": [
+      "/sys/class/hwmon/hwmon4/temp1_input",
+      "/sys/class/hwmon/hwmon4/temp3_input",
+      "/sys/class/hwmon/hwmon4/temp4_input"
+    ],
     "GPU_METHOD": "nvidia_smi_query"
   },
   "controls": {
-    "/lpc/nct6797d/control/0": "/sys/class/hwmon/hwmon5/pwm1",
-    "/lpc/nct6797d/control/1": "/sys/class/hwmon/hwmon5/pwm2",
-    "/lpc/nct6797d/control/2": "/sys/class/hwmon/hwmon5/pwm3",
-    "/lpc/nct6797d/control/3": "/sys/class/hwmon/hwmon5/pwm4",
-    "/lpc/nct6797d/control/4": "/sys/class/hwmon/hwmon5/pwm5",
-    "/lpc/nct6797d/control/5": "/sys/class/hwmon/hwmon5/pwm6",
-    "/lpc/nct6797d/control/6": "/sys/class/hwmon/hwmon5/pwm7"
+    "/lpc/nct6797d/control/0": "/sys/class/hwmon/hwmon3/pwm1",
+    "/lpc/nct6797d/control/1": "/sys/class/hwmon/hwmon3/pwm2",
+    "/lpc/nct6797d/control/2": "/sys/class/hwmon/hwmon3/pwm3",
+    "/lpc/nct6797d/control/3": "/sys/class/hwmon/hwmon3/pwm4",
+    "/lpc/nct6797d/control/4": "/sys/class/hwmon/hwmon3/pwm5",
+    "/lpc/nct6797d/control/5": "/sys/class/hwmon/hwmon3/pwm6",
+    "/lpc/nct6797d/control/6": "/sys/class/hwmon/hwmon3/pwm7"
   }
 }
